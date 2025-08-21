@@ -1,0 +1,48 @@
+import type { InspectionOrder } from './types';
+
+export const MOCK_INSPECTION_ORDERS: InspectionOrder[] = [
+  {
+    id: 'INSP-001',
+    equipmentName: '3号门式起重机',
+    equipmentType: 'Gantry Crane',
+    location: '5号泊位',
+    inspector: '李伟',
+    date: '2024-07-28',
+    status: '异常',
+    summary: '主起升电机异响。',
+    details: '例行检查时，发现主起升电机在起吊超过10吨负载时有巨大研磨声。怀疑轴承失效或齿轮损坏。振动水平超出容差15%。需要立即进行详细检查并可能更换部件。这构成了安全风险。',
+  },
+  {
+    id: 'INSP-002',
+    equipmentName: '12号叉车',
+    equipmentType: 'Forklift',
+    location: 'B号仓库',
+    inspector: '陈杰',
+    date: '2024-07-27',
+    status: '紧急',
+    summary: '液压油泄漏且刹车失灵。',
+    details: '观察到门架起升油缸有严重液压油泄漏。刹车踏板感觉松软，需要过大力度才能制动。车辆操作不安全。需要立即停用并维修。如果需要焊接修复支架，可能需要动火作业许可。',
+  },
+  {
+    id: 'INSP-003',
+    equipmentName: '7号轮胎式集装箱门式起重机',
+    equipmentType: 'RTG Crane',
+    location: 'C堆场区',
+    inspector: '张浩',
+    date: '2024-07-26',
+    status: '正常',
+    summary: '所有系统运行正常。',
+    details: '完成全面操作检查。发动机、液压、吊具和电气系统均在正常运行参数范围内。未发现问题。',
+  },
+  {
+    id: 'INSP-004',
+    equipmentName: '5号门式起重机',
+    equipmentType: 'Gantry Crane',
+    location: '2号泊位',
+    inspector: '王毅',
+    date: '2024-07-25',
+    status: '异常',
+    summary: '高处主支撑梁有腐蚀。',
+    details: '在约30米高度的主结构支撑梁上发现可见的腐蚀和油漆剥落。受影响区域靠近一个焊接接头。需要高空作业进行详细评估、除锈和重新涂层，以防止进一步的结构退化。需要安全带和作业平台。',
+  },
+];

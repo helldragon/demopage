@@ -1,0 +1,5 @@
+{
+  "name": "Intelligent Port Maintenance Work Order Generator",
+  "description": "An application that uses AI to analyze equipment inspection reports and intelligently generate and assign maintenance work orders for port operations.",
+  "requestFramePermissions": []
+}
